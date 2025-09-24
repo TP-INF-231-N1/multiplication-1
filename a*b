@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main () {
+    int a,b,i,n,rep=0;
+
+    printf("Entrer le premier entier \t");
+    scanf("%d",&a);
+    printf("Entrer le deuxième entier\t");
+    scanf("%d",&b);
+    n=a*b;
+    for (i=0; i<n; i++) {
+        b=rep+1;
+        rep=b;
+    }
+    printf("Résultat : ");
+    for(i=0;i<n-1;i++) {
+    printf("1+");}
+    printf("1 = %d",b);
+    
+    return 0;
+
+}
